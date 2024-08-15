@@ -3,11 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Louis Tomlinson es un cantante, compositor y exmiembro de la exitosa banda británica One Direction. Nació el 24 de diciembre de 1991 en Doncaster, Inglaterra...">
+    <!-- esto funciona para poner la descripcion que sale debajo en las paginas -->
+    <meta name="keywords" content="Cantante, One Direction, Harry Styles">
+    <!-- esto funciona para que cuando se busque una de estas palabras pueda salir la pagina-->
     <title>Document</title>
+    <style>
+        .imagen {
+            display: flex; /* para que todas las imagenes esten en una fila, esta es la foema de comentar en css */
+            justify-content: space-between; /* Espacio entre las imágenes */
+            gap: 15px; /* Espacio adicional entre imágenes */
+            width: 200px; /* para que las tres sean cuadradas */
+            height: 200px; /* lo mismo de arriba */
+        }
+        .texto {
+            font-size: 24px; /* Tamaño de la fuente más grande */
+            line-height: 1.4; /* Altura de línea para mejorar la legibilidad */
+            text-align: justify; 
+        }
+    </style>
 </head>
 <body style="background-color: lavender;">
     <h1 style="text-align: center;">LOUIS TOMLINSON</h1> <!-- esto funciona para poner el titulo en el centro -->
-    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQi_mZdw6s0VX1LClMKFnhsO90jW7v6tFcIRg&s" style="width: 500px;">
-    <p></p>
+    <img class="imagen" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOR52HYr5V54WdjMi8NhbPvyh102N5Rl2iNg&s alt="Foto 1">
+    <img class="imagen" src=https://www.chicagotribune.com/wp-content/uploads/migration/2023/03/21/2GSTYAWHAJBIHAEDLJGHCWT27M.jpg?w=620 alt="Foto 2">
+    <img class="imagen" src=https://pbs.twimg.com/media/F2QLHYHXIAAQtt6.jpg:large alt="Foto 3">
+    <p class="texto">Louis Tomlinson es un cantante, compositor y exmiembro de la exitosa banda británica One Direction. Nació el 24 de diciembre de 1991 en Doncaster, Inglaterra. Durante su tiempo en One Direction, se destacó por su voz única y por contribuir a la composición de muchas canciones del grupo. </p>
 </body> 
 </html>
