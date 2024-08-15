@@ -10,24 +10,41 @@
     <title>Document</title>
     <style>
         .imagen {
-            display: flex; /* para que todas las imagenes esten en una fila, esta es la foema de comentar en css */
-            justify-content: space-between; /* Espacio entre las imágenes */
-            gap: 15px; /* Espacio adicional entre imágenes */
-            width: 200px; /* para que las tres sean cuadradas */
-            height: 200px; /* lo mismo de arriba */
+            width: 300px; /* para que las tres sean cuadradas */
+            height: 300px; /* lo mismo de arriba */
         }
         .texto {
             font-size: 24px; /* Tamaño de la fuente más grande */
-            line-height: 1.4; /* Altura de línea para mejorar la legibilidad */
+            line-height: 1.4; 
             text-align: justify; 
+        }
+        .titulo {
+            text-align: center;
+            background-color: rgb(136, 136, 228);
+        }
+        .text_img {
+            font-size: 24px; /* Tamaño de la fuente más grande */
+            line-height: 1.4; 
+            text-align: justify; 
+            width: 300px; /* */
+            height: 250px; 
+        
+            float: left; /* Coloca la imagen a la izquierda */
+            margin-right: 10px;
+            margin-left: 10px;
+            /* Coloca la imagen a la izquierda */
+
         }
     </style>
 </head>
-<body style="background-color: lavender;">
-    <h1 style="text-align: center;">LOUIS TOMLINSON</h1> <!-- esto funciona para poner el titulo en el centro -->
+<body style="background-color: rgb(227, 227, 238);">
+    <h1 class="titulo">LOUIS TOMLINSON</h1> 
     <img class="imagen" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOR52HYr5V54WdjMi8NhbPvyh102N5Rl2iNg&s alt="Foto 1">
     <img class="imagen" src=https://www.chicagotribune.com/wp-content/uploads/migration/2023/03/21/2GSTYAWHAJBIHAEDLJGHCWT27M.jpg?w=620 alt="Foto 2">
     <img class="imagen" src=https://pbs.twimg.com/media/F2QLHYHXIAAQtt6.jpg:large alt="Foto 3">
     <p class="texto">Louis Tomlinson es un cantante, compositor y exmiembro de la exitosa banda británica One Direction. Nació el 24 de diciembre de 1991 en Doncaster, Inglaterra. Durante su tiempo en One Direction, se destacó por su voz única y por contribuir a la composición de muchas canciones del grupo. </p>
+    <p class="text_img">Durante su tiempo en One Direction, se destacó por su voz única y por contribuir a la composición de muchas canciones del grupo. Tras la pausa indefinida de la banda en 2016, Louis lanzó su carrera como solista, publicando su primer álbum "Walls" en 2020. </p>
+    <img class="text_img" src=https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTkFdtisP1iQxtImUKSRpPDtedfxqH9kM544x6zy7SZEPqCEJP0URfbO170_xR8ipe0Is8&usqp=CAU>
+    <p class="text_img"> La banda, compuesta por Harry Styles, Niall Horan, Zayn Malik, Liam Payne y Louis Tomlinson, alcanzó fama mundial con éxitos como "What Makes You Beautiful" y "Story of My Life". </p>
 </body> 
 </html>
